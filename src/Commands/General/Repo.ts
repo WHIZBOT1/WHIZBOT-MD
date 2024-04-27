@@ -15,7 +15,7 @@ export default class extends BaseCommand {
         let text = ''
         text += `*whizbot* ✨\n\n`
         text += `*fork and give a star 🌟 so you can get more updates* \n\n`
-        text += `⚙️ *Repo Link: https://github.com/WHIZBOT1/WHIZBOT7* \n\n`
+        text += `⚙️ *Repo Link: https://github.com/WHIZBOT1/WHIZBOT-MD* \n\n`
         text += `*bot is still under maintenance*`
         return void (await M.reply(image, 'image', undefined, undefined, text))
     }
