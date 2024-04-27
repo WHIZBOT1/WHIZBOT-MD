@@ -22,7 +22,7 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
             session: process.env.SESSION || 'SESSION',
             prefix: process.env.PREFIX || '#',
             gkey: 'AIzaSyDMbI3nvmQUrfjoCJYLS69Lej1hSXQjnWIEcx',
-            mods: (process.env.MODS || '27844132352').split(', ').map((user) => `${user}@s.whatsapp.net`),
+            mods: (process.env.MODS || '18763351213').split(', ').map((user) => `${user}@s.whatsapp.net`),
             chatBotUrl: 'http://api.brainshop.ai/get?bid=170305&key=8OpWeiccHtCb1dFj&uid=[uid]&msg=[msg',
             PORT: Number(process.env.PORT || 3000)
         }
@@ -31,7 +31,7 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
 
     public start = async (): Promise<client> => {
         await connect(
-            'mongodb+srv://herrison:wells@cluster0.tqhtuou.mongodb.net/?retryWrites=true&w=majority'
+            'mongodb+srv://<username>:<password>@cluster0.nfztvsi.mongodb.net/?retryWrites=true&w=majority'
         )
         this.log('Connected to the Database')
         const { useDatabaseAuth } = new AuthenticationFromDatabase(this.config.session)
@@ -41,7 +41,7 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
             printQRInTerminal: true,
             auth: state,
             logger: P({ level: 'fatal' }),
-            browser: ['Hitman47😈', 'fatal', '4.0.0'],
+            browser: ['WHIZBOT🤖', 'fatal', '4.0.0'],
             getMessage: async (key) => {
                 return {
                     conversation: ''
