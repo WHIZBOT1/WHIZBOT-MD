@@ -3,7 +3,7 @@ import { BaseCommand, Command, Message } from '../../Structures';
 const randomGreetings = [
     'Hello Human!',
     'Greetings!',
-    'i want the smoke DK hitman',
+    'anyyhing interested today?',
     'Hey there!',
     'Hi, how can I assist you today?'
 ];
