@@ -45,7 +45,7 @@ export default class command extends BaseCommand {
 
 Prefix is #] ...\nᚖ ────── ✪ ────── ᚖ`;
 
-        const footerText = '© Hitman47 Inc 2024';
+        const footerText = '© whizbot Inc 2024';
 
         const messageContent: CustomMessageContent = {
             text: faqText,
