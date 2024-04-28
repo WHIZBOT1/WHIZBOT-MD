@@ -11,11 +11,11 @@ import { IArgs } from '../../Types'
 })
 export default class extends BaseCommand {
     private imageUrls: string[] = [
-        'https://telegra.ph/file/96e86a5fe768fb5cc6193.jpg',
-        'https://telegra.ph/file/78e38a311fb321471d83c.jpg',
-        'https://telegra.ph/file/41964deb11222c107996e.jpg',
-        'https://telegra.ph/file/8b87b410b49d61de535d3.jpg',
-        'https://telegra.ph/file/e9aa5e407abe6d7911ace.jpg',
+        'https://telegra.ph/file/b555fe97876a9beadd95f.jpg',
+        'https://telegra.ph/file/eb37486ec712c9d1f6c1f.jpg',
+        'https://telegra.ph/file/51187c18cd6f37fcba210.jpg',
+        'https://telegra.ph/file/f269b7d9a3e9815d9ea10.jpg',
+        'https://telegra.ph/file/c09faabffb320325f71ea.jpg',
     ]
     // you can add more pictures if you want bro or girl
     
