@@ -30,7 +30,9 @@ export default class extends BaseCommand {
         const randomImageUrl = this.imageUrls[Math.floor(Math.random() * this.imageUrls.length)]
         const image = await this.client.utils.getBuffer(randomImageUrl)
         const uptime = this.client.utils.formatSeconds(process.uptime())
-        const text = `*🍁 ${this.client.config.name} 🍁*\n\n📙 *Description: ${description}*\n\n🔗 *Commands:* ${this.handler.commands.size}\n🚦 *Uptime:* ${uptime}\n🎐 *Users:* ${users}\n🌃 *Mods:* ${this.client.config.mods.length}\n🔮 *Groups:* ${groups.length}`
+        const text = `*━━━❰ ${this.client.config.name} ❱━━━*\n\⚠ *Description: ${description}*\n\n📚 *Commands:* ${this.handler.commands.size}\n⌚ *Uptime:* ${uptime}\n🎐 *Users:* ${users}\n🧙‍♂️ *Mods:* ${this.client.config.mods.length}\n🔮 *Groups:* ${groups.length}\n🤖 *𝗕𝗼𝘁 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: 𝟱.𝟱*\n🧙‍♂️ *𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿: 𝗨𝗻𝗸𝗻𝗼𝘄𝗻𝗸𝗶𝗱*\n🧙‍♂️ *𝗔𝘀𝘀𝗶𝘀𝘁 𝗕𝘆: 𝗝𝗙𝗟𝗘𝗫 𝗢𝗚*
+        
+   *©𝗪𝗛𝗜𝗭𝗕𝗢𝗧 🤖 🤭 Inc*`
         return void (await reply(image, 'image', undefined, undefined, text, undefined, {
             title: this.client.utils.capitalize(name),
             thumbnail: image,
@@ -38,4 +40,4 @@ export default class extends BaseCommand {
             sourceUrl: homepage
         }))
     }
- }
+}
