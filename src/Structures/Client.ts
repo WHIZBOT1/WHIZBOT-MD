@@ -31,7 +31,7 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
 
     public start = async (): Promise<client> => {
         await connect(
-            'mongodb+srv://<username>:<password>@cluster0.nfztvsi.mongodb.net/?retryWrites=true&w=majority'
+            'mongodb+srv://whizbot:123johniphone@cluster0.nfztvsi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
         )
         this.log('Connected to the Database')
         const { useDatabaseAuth } = new AuthenticationFromDatabase(this.config.session)
