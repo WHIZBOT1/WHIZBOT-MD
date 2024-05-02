@@ -19,12 +19,11 @@ export default class command extends BaseCommand {
         *[ https://whatsapp.com/channel/0029VacWsSl3LdQOmWZrBj0l ]*
        
         *#2*  『*FOR 𝗪𝗛𝗜𝗭𝗕𝗢𝗧 BOT'S ONLY🤭🤖』*
-        *[https://chat.whatsapp.com/HJlPEPSZ94bFVUpl90UiRo ]*
+        *[https://chat.whatsapp.com/BTKbQtMAlao1h2Vn4XXlmF ]*
 
         *#3* *『❤️CASINO❤️』*
         *[ https://chat.whatsapp.com/HJlPEPSZ94bFVUpl90UiRo ]*
         
-ᚖ here Enjoy 😎🤭 ᚖ
         *©𝗪𝗛𝗜𝗭𝗕𝗢𝗧 🤖 🤭 Inc*\nᚖ here ᚖ`;
 
         const footerText = '© whizbot Inc 2024';
