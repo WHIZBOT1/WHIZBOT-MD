@@ -25,7 +25,7 @@ export default class extends BaseCommand {
                 command,
                 data
             })).filter((command) => command.data.config.category !== 'bot')
-            M.reply('*..i think i love you..*')
+            M.reply('*..whizbot at your service!..*')
             const randomImageUrl = this.imageUrls[Math.floor(Math.random() * this.imageUrls.length)]
             const image = await this.client.utils.getBuffer(randomImageUrl)
             let text = `✨! *@${M.sender.jid.split('@')[0]}*, 𝐈 𝐀𝐌 ${
