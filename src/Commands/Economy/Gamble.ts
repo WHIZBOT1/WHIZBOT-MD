@@ -16,20 +16,7 @@ export default class command extends BaseCommand {
             return void M.reply(`Invalid usage! Example: *${this.client.config.prefix}gamble right 500*`)
         
         //test
-let amount: number; // Declare amount
 
-// Assign a value to amount based on your logic
-if (someCondition) {
-    amount = calculateAmount();
-} else {
-    amount = 0;
-}
-
-// Check if bank minus some value is less than 0
-if (bank - M.numbers[0] < 0) {
-    return void M.reply(`🟥 *check ur wallet*`);
-}
-     
         const { wallet } = await this.client.DB.getUser(M.sender.jid)
         const direction = args[1]
         const result = directions[Math.floor(Math.random() * directions.length)]
