@@ -16,7 +16,8 @@ export default class command extends BaseCommand {
             return void M.reply(`Invalid usage! Example: *${this.client.config.prefix}gamble right 500*`)
         
         //test
-        
+
+               let amount: number = 0; // Declare and initialize amount        
                 if (amount > 1 ) return void M.reply(`check ur wallet`)
         
         const amount = M.numbers[0]
