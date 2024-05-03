@@ -19,7 +19,7 @@ export default class command extends BaseCommand {
 
 let amount: number = 0; // Declare and initialize amount
 if (someCondition) {
-    amount = newValue; // Assign a new value to amount if needed
+    amount = 0; // Assign a new value to amount if needed
 }
         
                
