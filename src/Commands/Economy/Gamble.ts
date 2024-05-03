@@ -17,7 +17,7 @@ export default class command extends BaseCommand {
         
         //test
         
-        
+                if (amount > wallet) return void M.reply(`check ur wallet`)
         
         const amount = M.numbers[0]
         const { wallet } = await this.client.DB.getUser(M.sender.jid)
