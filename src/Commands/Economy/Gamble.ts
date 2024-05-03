@@ -17,10 +17,10 @@ export default class command extends BaseCommand {
         
         //test
 
-let amount: number = 0; // Declare and initialize amount
+
 if (someCondition) {
     amount = 0; // Assign a new value to amount if needed
-}
+} return void M.reply(`check ur wallet`)
         
                
         
