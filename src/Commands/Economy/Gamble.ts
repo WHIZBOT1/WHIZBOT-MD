@@ -2,7 +2,7 @@ import { Sticker } from 'wa-sticker-formatter'
 import { BaseCommand, Command, Message } from '../../Structures'
 import { IArgs } from '../../Types'
 
-const MAX_GAMBLE_AMOUNT = 15000; // Maximum amount allowed to gamble
+const MAX_GAMBLE_AMOUNT = 30000; // Maximum amount allowed to gamble
 
 @Command('gamble', {
     description: 'economy for a bot',
@@ -27,8 +27,8 @@ export default class GambleCommand extends BaseCommand {
         const result = directions[Math.floor(Math.random() * directions.length)];
         await this.client.DB.setGold(M.sender.jid, result === direction ? amount : 0);
         const sticker = await new Sticker(this.client.assets.get(result) as Buffer, {
-            pack: 'jflex',
-            author: `Maria`,
+            pack: 'jay',
+            author: `whizbot`,
             quality: 90,
             type: 'full'
         }).build();
