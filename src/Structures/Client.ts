@@ -137,7 +137,7 @@ export class Client extends (EventEmitter as new () => TypedEventEmitter<Events>
     public assets = new Map<string, Buffer>()
 
     public log = (text: string, error: boolean = false): void =>
-        console.log(chalk[error ? 'red' : 'blue']('[Dkhitman3]'), chalk[error ? 'redBright' : 'greenBright'](text))
+        console.log(chalk[error ? 'red' : 'blue']('[WHIZBOT1]'), chalk[error ? 'redBright' : 'greenBright'](text))
 
     public QR!: Buffer
 
