@@ -38,9 +38,9 @@ export class EventHandler {
             return void null
         const text =
             event.action === 'add'
-                ? aye ${event.participatants   
+                ? `aye *${event.participatants   
             .map((jid) => `@${jid.split('@')[0]}`)
-                      .join(',')}* 👏, it's nice to have you here welcome to the server!! '
+                      .join(',')}* 👏, it's nice to have you here welcome to the server!!`
                 : event.action === 'remove'
                 ? `Goodbye *${event.participants
                       .map((jid) => `@${jid.split('@')[0]}`)
