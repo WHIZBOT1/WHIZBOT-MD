@@ -38,11 +38,9 @@ export class EventHandler {
             return void null
         const text =
             event.action === 'add'
-                ? `- ${group.subject} -\n\n💈 *Group Description:*\n${
-                      group.description
-                  }\n\nHope you follow the rules and has arrived. I wonder if they brought their own cup of tea\n\n*‣ ${event.participants
-                      .map((jid) => `@${jid.split('@')[0]}`)
-                      .join(' ')}*`
+                ? `aye *${event.participants  
+            .map((jid) => `@${jid.split('@')[0]}`)
+                      .join(',')}* 👏, it's nice to have you here welcome to the server!!`
                 : event.action === 'remove'
                 ? `Goodbye *${event.participants
                       .map((jid) => `@${jid.split('@')[0]}`)
@@ -54,22 +52,7 @@ export class EventHandler {
                 : `Congratulations *@${
                       event.participants[0].split('@')[0]
                   }*, ❤️you're an admin! I hope you take care of us*`
-        if (event.action === 'add') {
-            let imageUrl: string | undefined
-            try {
-                imageUrl = await this.client.profilePictureUrl(event.jid)
-            } catch (error) {
-                imageUrl = undefined
-            }
-            const image = imageUrl
-                ? await this.client.utils.getBuffer(imageUrl)
-                : (this.client.assets.get('404') as Buffer)
-            return void (await this.client.sendMessage(event.jid, {
-                image: image,
-                mentions: event.participants,
-                caption: text
-            }))
-        }
+        
         return void (await this.client.sendMessage(event.jid, {
             text,
             mentions: event.participants
