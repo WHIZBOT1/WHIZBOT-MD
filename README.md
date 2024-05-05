@@ -4,23 +4,21 @@
 
 
 <p align="center">
-<img src="https://telegra.ph/file/da0bdf8daba28c13f4558.jpg" alt="nz" width="350"/>
+    <img src="https://telegra.ph/file/da0bdf8daba28c13f4558.jpg" alt="nz" width="350"/>
 </p>
 
-## ***♥️WHIZBOT♥️***
-> This Script WhatsApp Bot Using Library Baileys & Script is free for everyone, not for Sale!
-> ***Note: it's a modified version of [chisato-WhatsAp](https://github.com/AliAryanTech/Chisato-WhatsApp)***
-</br>
+## **♥️ WHIZBOT ♥️**
+> This script is a WhatsApp Bot using the Baileys library and is free for everyone. It's not for sale!
+> ***Note:*** *It's a modified version of [chisato-WhatsApp](https://github.com/AliAryanTech/Chisato-WhatsApp).*
 
-<a 
-href="https://github.com/WHIZBOT1"><img title="Author" src="https://img.shields.io/badge/Author-whizbot-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
+<a href="https://github.com/WHIZBOT1"><img title="Author" src="https://img.shields.io/badge/Author-whizbot-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></a>  
 <a href="https://github.com/WHIZBOT1/WHIZBOTMD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Dkhitman3/Hitman47?color=54aeff&style=flat-square" /></a>
 <a href="https://github.com/WHIZBOT1/WHIZBOT-MD/forks"><img title="Forks" src="https://img.shields.io/github/forks/Dkhitman3/Hitman47?color=54aeff&style=flat-square" /></a>
-<a href="https://github.com/Dkhitman3/Bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Dkhitman3/Bot?label=watchers&color=54aeff&style=flat-square" /></a> <br>
+<a href="https://github.com/Dkhitman3/Bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Dkhitman3/Bot?label=watchers&color=54aeff&style=flat-square" /></a>
 
 1. **Fork the repo**
     <br>
-<a href='https://github.com/WHIZBOT1/WHIZBOT-MD' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+    <a href='https://github.com/WHIZBOT1/WHIZBOT-MD' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 ---
 
