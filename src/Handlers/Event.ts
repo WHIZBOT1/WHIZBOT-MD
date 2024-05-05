@@ -52,22 +52,7 @@ export class EventHandler {
                 : `Congratulations *@${
                       event.participants[0].split('@')[0]
                   }*, ❤️you're an admin! I hope you take care of us*`
-        if (event.action === 'add') {
-            let imageUrl: string | undefined
-            try {
-                imageUrl = await this.client.profilePictureUrl(event.jid)
-            } catch (error) {
-                imageUrl = undefined
-            }
-            const image = imageUrl
-                ? await this.client.utils.getBuffer(imageUrl)
-                : (this.client.assets.get('404') as Buffer)
-            return void (await this.client.sendMessage(event.jid, {
-                image: image,
-                mentions: event.participants,
-                caption: text
-            }))
-        }
+        
         return void (await this.client.sendMessage(event.jid, {
             text,
             mentions: event.participants
