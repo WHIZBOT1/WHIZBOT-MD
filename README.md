@@ -1,6 +1,6 @@
 <div align="center">
 	
-![](https://typograssy.deno.dev/api?text=I'M__MARIA_BOT_MODIFIED_BY_JFLEX-OG_ASSISTED_BY_Mr.KAKASHI。!&l0=none&l1=216e39&l4=a3f0b0&bg=none&frame=none&speed=100&comment=)
+![](https://typograssy.deno.dev/api?text=WHIZBOT_WHATSAPP_BOT_CREATED_BY_JAY-_ASSISTED_BY_JFLEX_OG。!&l0=none&l1=216e39&l4=a3f0b0&bg=none&frame=none&speed=100&comment=)
 
 
 <p align="center">
