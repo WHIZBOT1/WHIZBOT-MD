@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://telegra.ph/file/d50ddf7f801b404253fad.jpg" alt="nz" width="350"/>
+<img src="https://telegra.ph/file/da0bdf8daba28c13f4558.jpg" alt="nz" width="350"/>
 </p>
 
 ## ***♥️WHIZBOT♥️***
