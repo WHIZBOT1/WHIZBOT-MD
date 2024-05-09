@@ -1,6 +1,12 @@
+<div align="center">
+	
+![](https://typograssy.deno.dev/api?text=WHIZBOT_WHATSAPP_BOT_CREATED_BY_JAY-_ASSISTED_BY_JFLEX_OG。!&l0=none&l1=216e39&l4=a3f0b0&bg=none&frame=none&speed=100&comment=)
+
+
 <p align="center">
-<img src="https://telegra.ph/file/d50ddf7f801b404253fad.jpg" alt="nz" width="350"/>
+    <img src="https://telegra.ph/file/da0bdf8daba28c13f4558.jpg" alt="nz" width="350"/>
 </p>
+
 
 ## ***♥️WHIZBOT♥️***
 > This Script WhatsApp Bot Using Library Baileys & Script is free for everyone, not for Sale!
@@ -16,6 +22,7 @@ href="https://github.com/WHIZBOT1"><img title="Author" src="https://img.shields.
 1. **Fork the repo**
     <br>
 <a href='https://github.com/WHIZBOT1/WHIZBOT-MD' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
 
 ---
 
