@@ -3,7 +3,7 @@ import { BaseCommand, Command, Message } from '../../Structures';
 import { IArgs } from '../../Types';
 
 const MAX_GAMBLE_AMOUNT = 300000; // Maximum amount allowed to gamble
-const ALLOWED_GROUP_ID = '120363290585040346@g.us'; //my group id 
+const ALLOWED_GROUP_ID = 120363290585040346@g.us; //my group id 
 
 @Command('gamble', {
     description: 'economy for a bot',
