@@ -1,8 +1,9 @@
-import { Sticker } from 'wa-sticker-formatter'
-import { BaseCommand, Command, Message } from '../../Structures'
-import { IArgs } from '../../Types'
+import { Sticker } from 'wa-sticker-formatter';
+import { BaseCommand, Command, Message } from '../../Structures';
+import { IArgs } from '../../Types';
 
-const MAX_GAMBLE_AMOUNT = 30000; // Maximum amount allowed to gamble
+const MAX_GAMBLE_AMOUNT = 300000; // Maximum amount allowed to gamble
+const ALLOWED_GROUP_ID = '120363290585040346@g.us'; //my group id 
 
 @Command('gamble', {
     description: 'economy for a bot',
@@ -13,6 +14,11 @@ const MAX_GAMBLE_AMOUNT = 30000; // Maximum amount allowed to gamble
 })
 export default class GambleCommand extends BaseCommand {
     override execute = async (M: Message, { args }: IArgs): Promise<void> => {
+        // Check if the message is from the allowed group
+        if (M.groupMetadata.id !== ALLOWED_GROUP_ID) {
+            return void M.reply('This command is only allowed in a specific group.');
+        }
+
         const directions = ['left', 'right'] as TGamblingDirections[];
         if (M.numbers.length < 1 || args.length < 1)
             return void M.reply(`Invalid usage! Example: *${this.client.config.prefix}gamble right 500*`);
