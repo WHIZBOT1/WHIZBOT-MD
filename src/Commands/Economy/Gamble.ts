@@ -16,8 +16,13 @@ export default class GambleCommand extends BaseCommand {
     override execute = async (M: Message, { args }: IArgs): Promise<void> => {
         
         override execute = async (M: Message, { args }: IArgs): Promise<void> => {
-    // Type guard to ensure M.groupMetadata is defined
-    if (!('groupMetadata' in M) || !M.groupMetadata || !M.groupMetadata.id || M.groupMetadata.id !== ALLOWED_GROUP_ID) {
+    // Check if M has groupMetadata
+    if (!M.groupMetadata) {
+        return void M.reply('This command is only allowed in a specific group.');
+    }
+
+    // Check if M.groupMetadata has an id property and if it's in the allowed group
+    if (!M.groupMetadata.id || M.groupMetadata.id !== ALLOWED_GROUP_ID) {
         return void M.reply('This command is only allowed in a specific group.');
     }
 
