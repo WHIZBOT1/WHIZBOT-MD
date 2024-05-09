@@ -14,11 +14,15 @@ const ALLOWED_GROUP_ID = '120363290585040346@g.us'; //my group id
 })
 export default class GambleCommand extends BaseCommand {
     override execute = async (M: Message, { args }: IArgs): Promise<void> => {
-        // Check if the message is from the allowed group
-        if (M.groupMetadata.id !== ALLOWED_GROUP_ID) {
-            return void M.reply('This command is only allowed in a specific group.');
-        }
+        
+        override execute = async (M: Message, { args }: IArgs): Promise<void> => {
+    // Check if the message is in a group and if it has group metadata
+    if (!M.groupMetadata || !M.groupMetadata.id || M.groupMetadata.id !== ALLOWED_GROUP_ID) {
+        return void M.reply('This command is only allowed in a specific group.');
+    }
 
+    // Rest of your code
+}
         const directions = ['left', 'right'] as TGamblingDirections[];
         if (M.numbers.length < 1 || args.length < 1)
             return void M.reply(`Invalid usage! Example: *${this.client.config.prefix}gamble right 500*`);
